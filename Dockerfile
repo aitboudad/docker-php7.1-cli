@@ -1,5 +1,5 @@
 # TODO: use https://gist.github.com/Xotabu4/a243d9ff25cfe276bcaa0175fb6a4b00
-FROM alpine:3.7
+FROM alpine:edge
 
 RUN apk add --no-cache \
     nodejs unzip curl php7 php7-xml php7-mbstring php7-intl php7-curl php7-tokenizer php7-dom php7-pdo php7-pdo_sqlite \
